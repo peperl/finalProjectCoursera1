@@ -1226,7 +1226,7 @@ fieldset[disabled]
 
 .btn.btn-tiktok,
 .navbar .navbar-nav > li > a.btn.btn-tiktok {
-    background-color: #000000 ;
+    background-color: #ffffff ;
     color: #fff;
     box-shadow: 0 2px 2px 0 rgba(18, 86, 136, 0.14), 0 3px 1px -2px rgba(18, 86, 136, 0.2), 0 1px 5px 0 rgba(18, 86, 136, 0.12);
 }
@@ -1235,25 +1235,24 @@ fieldset[disabled]
 .navbar .navbar-nav > li > a.btn.btn-tiktok:focus,
 .navbar .navbar-nav > li > a.btn.btn-tiktok:active,
 .navbar .navbar-nav > li > a.btn.btn-tiktok:hover {
-    background-color: #000000 ;
+    background-color: #ffffff ;
     color: #fff;
     box-shadow: 0 14px 26px -12px rgba(18, 86, 136, 0.42), 0 4px 23px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(18, 86, 136, 0.2);
 }
 
 .btn.btn-tiktok.btn-simple,
 .navbar .navbar-nav > li > a.btn.btn-tiktok.btn-simple {
-    color: #000000 ;
+    color: #ffffff ;
     background-color: transparent;
     box-shadow: none;
 }
 
 .btn.btn-tiktok.btn-white,
 .navbar .navbar-nav > li > a.btn.btn-tiktok.btn-white {
-    color: #000000 ;
+    color: #ffffff ;
     background-color: #FFFFFF;
     box-shadow: 0 2px 2px 0 rgba(153, 153, 153, 0.14), 0 3px 1px -2px rgba(153, 153, 153, 0.2), 0 1px 5px 0 rgba(153, 153, 153, 0.12);
 }
-
 .btn.btn-edge,
 .navbar .navbar-nav > li > a.btn.btn-edge {
     background-color: #55e2bf ;
@@ -9860,3 +9859,8 @@ select.selectpicker {
     text-align: left;
     padding: 5px 0;
 }
+
+a {
+    color: inherit; /* blue colors for links too */
+    text-decoration: inherit; /* no underline */
+  }
